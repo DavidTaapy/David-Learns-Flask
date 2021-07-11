@@ -5,7 +5,7 @@ from flask_login import LoginManager
 import os
 
 app = Flask(__name__, static_folder=os.path.abspath(
-    'C:/Users/david/OneDrive/Desktop/Projects/Fake-E-Commerce-Site/static'))
+    'C:/Users/david/OneDrive/Desktop/Projects/Fake-E-Commerce-Site/market/static'))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///market.db'
 app.config['SECRET_KEY'] = '7689619d82bb1aac5e1e4ae6'
 db = SQLAlchemy(app)
